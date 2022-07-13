@@ -74,7 +74,7 @@
                 <li data-menuanchor="Intro" class="active"><a href="#Intro">Home</a></li>
                 <li data-menuanchor="Services"><a href="#Services">Services</a></li>
                 <li data-menuanchor="Projects"><a href="#Projects">Featured Work</a></li>
-                <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+                <li data-menuanchor="Awards"><a href="#Awards">Contact</a></li>
               </ul>
           </nav>
 
@@ -234,24 +234,60 @@
                   <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="contact-personal-card">
                       <div class="contact-personal-card-title animate-element delay7 fadeInDown">
-                        <h2 class="slide-title" href="#Contact">CONTACT</h2>
+                        <h2 class="slide-title" href="#Contact">Contact</h2>
                       </div>
                       <div class="contact-personal-card-detail animate-element delay7 fadeInUp">
                         <div class="row">
                           <div class="col-xl-7 col-lg-10">
-                          
+                            <h3 class="slide-title-info mb-5 mb-md-0"><span class="text-primary">SERVING</span></h3>
+                            <div class="slide-title-sub"> FLORIDA <br> VIRGINIA  <br> MARYLAND  <br> DISTRICT OF COLUMBIA </div>
                         <!--    <div class="slide-title-sub"><a href="tel:+7068980751" class="phone-link">(+706) 898-0751</a></div> -->
-                            
+                            <div class="text-md text-uppercase"><a href="mailto:mj@nextmilestone.io" class="text-primary"><strong>mj@nextmilestone.io</strong></a></div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-5 animate-element delay7 fadeInUp">
-                    <div class="slide-title-info">Let's plan your <span class="text-primary">Next Milestone</span></div>
-                    
-                    
-                   <div data-tf-widget="xSUyHitl" data-tf-hide-headers data-tf-iframe-props="title=Next Milestone Contact Form" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                    <div class="slide-title-info">Let's plan your <span class="text-primary">next milestone</span></div>
+                    <form class="contact-personal-form a-ajax-form">
+                      <div class="form-group form-group-material a-form-group">
+                        <label class="label">Full Name</label>
+                        <input type="text" class="form-control" name="name" required />
+                      </div>
+                      <div class="form-group form-group-material a-form-group">
+                        <label class="label">Email</label>
+                        <input type="email" class="form-control" name="email" required />
+                      </div>
+                      <div class="form-group form-group-material a-form-group">
+                        <label class="label">Category</label>
+                        <select class="form-control" name="category">
+                          <option value="">&nbsp;</option>
+                          <option value="Real Estate">Real Estate</option>
+                          <option value="PM">New Venture Project Management</option>
+                          <option value="lifestyle">Lifestyle Management</option>
+                          <option value="EA">Executive Administrative Services</option>
+                          <option value="other">Other</option>
+                        </select>
+                      </div>
+                      <div class="form-group form-group-material a-form-group">
+                        <label class="label">Details</label>
+                        <textarea class="form-control" name="message" cols="30" rows="3"></textarea>
+                      </div>
+                      <div class="form-group control-file a-file">
+                        <input type="file" name="file_attach[]" multiple />
+                        <div class="file-path-wrapper">
+                          <i class="lni lni-paperclip text-primary"></i>
+                          <input class="file-path form-control" placeholder="Add Attachment (.doc or .pdf format)" />
+                        </div>
+                      </div>
+                      <div class="message text-success success-message">Your message is successfully sent...</div>
+                      <div class="message text-danger error-message">Sorry something went wrong</div>
+                      <div class="control-btn">
+                        <button class="btn btn-success" type="submit">Send Message</button>
+                      </div>
+
+                    </form>
                   </div>
                 </div>
               </div>
